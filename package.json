@@ -1,0 +1,27 @@
+{
+  "name": "book-webservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynn96/Book-Webservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huynn96/Book-Webservice/issues"
+  },
+  "homepage": "https://github.com/huynn96/Book-Webservice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "knex": "^0.13.0",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  }
+}
